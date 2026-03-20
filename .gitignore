@@ -1,0 +1,17 @@
+# Kernel build artifacts
+*.ko
+*.o
+*.mod.c
+*.mod
+*.metadata
+*.symvers
+*.order
+.tmp_versions/
+
+# Build command logs and temporary files
+.*.cmd
+.cache.mk
+
+# Compiled binaries (if you add user-space test apps later)
+*.out
+app_test
