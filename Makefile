@@ -1,4 +1,4 @@
-obj-m += hello_kernel.o
+obj-m += ssd1306.o
 KDIR ?= /lib/modules/$(shell uname -r)/build
 all:
 	make -C $(KDIR) M=$(PWD) modules
