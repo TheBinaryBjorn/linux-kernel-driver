@@ -1,4 +1,3 @@
-# Linux Kernel Driver 
 # SSD1306 Linux Kernel Driver
 
 A loadable Linux kernel module that drives an SSD1306 OLED display over I2C, exposing a character device interface at `/dev/oled`. Text written to the device is rendered using a 5x7 bitmap font and flushed to the physical display.
